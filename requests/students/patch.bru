@@ -1,0 +1,17 @@
+meta {
+  name: patch
+  type: http
+  seq: 6
+}
+
+patch {
+  url: http://localhost:8000/api/students/1
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "jesus"
+  }
+}

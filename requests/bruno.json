@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "devli-hhrr-app",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

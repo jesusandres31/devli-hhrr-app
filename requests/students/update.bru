@@ -1,0 +1,18 @@
+meta {
+  name: update
+  type: http
+  seq: 4
+}
+
+put {
+  url: http://localhost:8000/api/students/1
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "jesusss",
+    "email": "jesus@gmail.com"
+  }
+}
